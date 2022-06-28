@@ -33,12 +33,11 @@ body{
   font-size:28pt;
 }
 .vidborder{
-  border:2px solid #000;
-  width:auto;
-  height:auto;
-  padding-left:50%;
-  /*margin:25%;*/
-  margin-left:-270px;
+  /*border:2px solid #000;*/
+  /*width:auto;*/
+  /*height:auto;*/
+  /*padding-left:50%;*/
+  /*margin-left:-270px;*/
 }
 </style>
 <!-- 
@@ -59,7 +58,8 @@ mp4 first
 <br>
 <video autoplay muted>
   <source src="assets/animation/jazzcat/jazzcat_01_final_out.mp4" type="video/mp4" poster="assets/animation/jazzcat/jazzcat_01_final_out_placeholder.jpg" />
-  <source src="assets/animation/jazzcat/jazzcat_01_final_out_2.webm" type="video/webm" />
+  <source src="assets/animation/jazzcat/jazzcat_01_final_out_2.webm" type="video/webm" onerror="fallback(parentNode)">
+  <img src="assets/animation/jazzcat/jazzcat_01_final.gif" onerror="fallback(parentNode)">
 </video>
 
 
@@ -67,27 +67,45 @@ mp4 first
 m4v first
 <br>
 <video autoplay muted>
-  <source src="assets/animation/jazzcat/jazzcat_01_final_out.m4v" type="video/mp4" />
+  <source src="assets/animation/jazzcat/jazzcat_01_final_out.m4v" type="video/m4v" />
   <source src="assets/animation/jazzcat/jazzcat_01_final_out_2.webm" type="video/webm" />
 </video>
 
 
 
-<div class="vidborder">
+<br>
+m4v says webm
+<br>
+<video autoplay muted>
+  <source src="assets/animation/jazzcat/jazzcat_01_final_out.m4v" type="video/webm" />
+</video>
+
+<br>
+m4v says video
+<br>
+<video autoplay muted>
+  <source src="assets/animation/jazzcat/jazzcat_01_final_out.m4v" type="video" />
+</video>
+
+
+
+
+
+<!-- <div class="vidborder">
 <br>
 mp4 with controls
 <br>
 <video controls='controls'> <source src= "assets/animation/jazzcat/jazzcat_01_final_out.mp4" type='video/mp4'>; </video>
-</div>
+</div> -->
 
 
 
-<div class="vidborder">
+<!-- <div class="vidborder">
 <br>
 mp4 with test js script, click to start
 <br>
 <video src="assets/animation/jazzcat/jazzcat_01_final_out.mp4" poster="assets/animation/jazzcat/jazzcat_01_final_out_placeholder.jpg" onclick="this.play();"/>
-</div>
+</div> -->
 
 
 
@@ -98,7 +116,7 @@ mp4 with test js script, click to start
 
 
 
-<!-- 
+
 
 TEMP TURN OFF
 <video autoplay loop muted playsinline>
@@ -129,7 +147,7 @@ TEMP TURN OFF
   Your browser does not support the video tag.
 </video>
 
- -->
+
 
 <!-- <source src="image.webm" onerror="fallback(parentNode)"> -->
 
