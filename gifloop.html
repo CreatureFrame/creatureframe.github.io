@@ -17,6 +17,39 @@
  -->
 
 
+<!-- <video id="VideoPlayer" src="<%=ResolveUrl("~/Videos/Butterfly.mp4") %>" width="400" height="350"
+    controls="true" autoplay="autoplay" loop="true" muted defaultmuted playsinline />
+ -->
+
+<style>
+body{
+  font-size:28pt;
+}
+</style>
+<!-- 
+<video id="VideoPlayer" src="<%=ResolveUrl("assets/animation/jazzcat/jazzcat_01_final_out.mp4") %>" width="400" height="350"
+    controls="true" autoplay="autoplay" loop="true" muted defaultmuted playsinline />
+ -->
+
+<br>
+webm first
+<br>
+<video autoplay muted>
+    <source src="assets/animation/jazzcat/jazzcat_01_final_out_2.webm" type="video/webm" />
+    <source src="assets/animation/jazzcat/jazzcat_01_final_out.mp4" type="video/mp4" />
+</video>
+
+<br>
+mp4 first
+<br>
+<video autoplay muted>
+  <source src="assets/animation/jazzcat/jazzcat_01_final_out.mp4" type="video/mp4" />
+  <source src="assets/animation/jazzcat/jazzcat_01_final_out_2.webm" type="video/webm" />
+</video>
+
+<!-- 
+
+TEMP TURN OFF
 <video autoplay loop muted playsinline>
   <source src="assets/animation/jazzcat/jazzcat_01_final_out.mp4" type="video/mp4" />
   <source src="assets/animation/jazzcat/jazzcat_01_final_out_2.webm" onerror="fallback(parentNode)">
@@ -45,7 +78,7 @@
   Your browser does not support the video tag.
 </video>
 
-
+ -->
 
 <!-- <source src="image.webm" onerror="fallback(parentNode)"> -->
 
