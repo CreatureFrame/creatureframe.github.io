@@ -15,7 +15,14 @@
 <img src="assets/animation/jazzcat/jazzcat_04_rainrig.gif"><br>
 <img src="assets/animation/jazzcat/jazzcat_05_raindrops.gif"><br>
  -->
+<script>
 
+var video = document.getElementById('video');
+video.addEventListener('click',function(){
+  video.play();
+},false);
+
+</script>
 
 <!-- <video id="VideoPlayer" src="<%=ResolveUrl("~/Videos/Butterfly.mp4") %>" width="400" height="350"
     controls="true" autoplay="autoplay" loop="true" muted defaultmuted playsinline />
@@ -24,6 +31,14 @@
 <style>
 body{
   font-size:28pt;
+}
+.vidborder{
+  border:2px solid #000;
+  width:auto;
+  height:auto;
+  padding-left:50%;
+  /*margin:25%;*/
+  margin-left:-270px;
 }
 </style>
 <!-- 
@@ -43,9 +58,45 @@ webm first
 mp4 first
 <br>
 <video autoplay muted>
-  <source src="assets/animation/jazzcat/jazzcat_01_final_out.mp4" type="video/mp4" />
+  <source src="assets/animation/jazzcat/jazzcat_01_final_out.mp4" type="video/mp4" poster="assets/animation/jazzcat/jazzcat_01_final_out_placeholder.jpg" />
   <source src="assets/animation/jazzcat/jazzcat_01_final_out_2.webm" type="video/webm" />
 </video>
+
+
+<br>
+m4v first
+<br>
+<video autoplay muted>
+  <source src="assets/animation/jazzcat/jazzcat_01_final_out.m4v" type="video/mp4" />
+  <source src="assets/animation/jazzcat/jazzcat_01_final_out_2.webm" type="video/webm" />
+</video>
+
+
+
+<div class="vidborder">
+<br>
+mp4 with controls
+<br>
+<video controls='controls'> <source src= "assets/animation/jazzcat/jazzcat_01_final_out.mp4" type='video/mp4'>; </video>
+</div>
+
+
+
+<div class="vidborder">
+<br>
+mp4 with test js script, click to start
+<br>
+<video src="assets/animation/jazzcat/jazzcat_01_final_out.mp4" poster="assets/animation/jazzcat/jazzcat_01_final_out_placeholder.jpg" onclick="this.play();"/>
+</div>
+
+
+
+
+
+
+
+
+
 
 <!-- 
 
