@@ -1,4 +1,13 @@
 
+
+<html>
+
+<head>
+</head>
+
+<body>
+
+
 <!-- <video>
    <source src="video-ipad.mp4" type="video/mp4" media="all and (max-width: 768px)">
    <source src="video-mobi.mp4" type="video/webm" media="all and (max-width: 768px)">
@@ -18,7 +27,7 @@
 
 
 <h1>
-test 2.2
+test 2.3
 </h1>
 
 <br><br>
@@ -29,17 +38,28 @@ full size for desktop, sharpening webm for mobile
 
 
 
+<!-- trying
+http://creatureframe.github.io/assets/test_mobile/jazzcat_desktop_540_mp4_h.mp4
+
+from
+ffmpeg -i "$from" -an -vcodec libx264 -crf 23 "$fromdir$filename$outputname"
+
+makes it funky colours
+
+ -->
+
+
 
 <br><br>
 <b>
-screen and then "all"
+h264 1
 </b>
 <br><br>
 
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - -->
 <video autoplay muted loop playsinline webkit-playsinline class='gifloops'>
-  <source src="http://creatureframe.github.io/assets/test_mobile/jazzcat_desktop_540_mp4.mp4" type="video/mp4"media="only screen and (min-device-width: 1200px)">
+  <source src="http://creatureframe.github.io/assets/test_mobile/jazzcat_desktop_540_mp4_h.mp4" type="video/mp4">
   <source src="http://creatureframe.github.io/assets/test_mobile/jazzcat_desktop_540_webm.mp4" type="video/webm"media="only screen and (min-device-width: 1200px)">
   <source src="http://creatureframe.github.io/assets/test_mobile/mobile_480px_sharpening_webm.webm" type="video/webm" media="all and (max-width: 1200px)">
   <source src="http://creatureframe.github.io/assets/test_mobile/mobile_480px_sharpening_webm.webm" type="video/webm" media="all and (max-width: 1200px)">
@@ -51,21 +71,14 @@ screen and then "all"
 
 <br><br>
 <b>
-screen for desk and mob
+h264 2
 </b>
 <br><br>
 
 
-<video width="618" height="347" controls preload>
-    <source src="video.mp4" media="only screen and (min-device-width: 568px)"></source>
-    <source src="video.iphone.mp4" media="only screen and (max-device-width: 1200px)"></source>
-</video>
-
-
-
 <!-- - - - - - - - - - - - - - - - - - - - - - - - -->
 <video autoplay muted loop playsinline webkit-playsinline class='gifloops'>
-  <source src="http://creatureframe.github.io/assets/test_mobile/jazzcat_desktop_540_mp4.mp4" type="video/mp4"media="only screen and (min-device-width: 1200px)">
+  <source src="http://creatureframe.github.io/assets/test_mobile/jazzcat_desktop_540_mp4_h2.mp4" type="video/mp4">
   <source src="http://creatureframe.github.io/assets/test_mobile/jazzcat_desktop_540_webm.mp4" type="video/webm"media="only screen and (min-device-width: 1200px)">
   <source src="http://creatureframe.github.io/assets/test_mobile/mobile_480px_sharpening_webm.webm" type="video/webm" media="only screen and (max-device-width: 1200px)">
   <source src="http://creatureframe.github.io/assets/test_mobile/mobile_480px_sharpening_webm.webm" type="video/webm" media="only screen and (max-device-width: 1200px)">
@@ -149,3 +162,7 @@ jazzcat_01_final_540.mp4
 https://64.media.tumblr.com/94ed3ecb623a654d3fb367043b2f12df/tumblr_inline_olx8m6EzuC1smn18a_500.gifv
 
  -->
+
+
+</body>
+</html>
