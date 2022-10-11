@@ -1,3 +1,5 @@
+
+
 <!-- <video>
    <source src="video-ipad.mp4" type="video/mp4" media="all and (max-width: 768px)">
    <source src="video-mobi.mp4" type="video/webm" media="all and (max-width: 768px)">
@@ -49,6 +51,11 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
         color:#555;
     }
 
+    .gifloops {
+        max-width: 100%;
+        image-rendering: pixelated;
+    }
+    
 </style>
 
 <h1>
@@ -57,6 +64,22 @@ TESTING
 
 
 
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - -->
+<p><b>mp4 only no autoplay</b><br>
+    <textarea rows="4" cols="50"><video src="http://creatureframe.github.io/assets/test_mobile/jazzcat_desktop_540_mp4.mp4" type="video/mp4" muted loop playsinline webkit-playsinline class='gifloops'>
+</video></textarea>
+</p>
+
+<!-- - - - - - - - - - - - -->
+<video src="http://creatureframe.github.io/assets/test_mobile/jazzcat_desktop_540_mp4.mp4" type="video/mp4" muted loop playsinline webkit-playsinline class='gifloops'>
+</video>
+
+    
+    
+    
+    
+    
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - -->
 <p><b>mp4 only without source</b><br>
