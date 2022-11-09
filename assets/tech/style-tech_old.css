@@ -516,7 +516,7 @@
         }
 
         section {
-            margin: 100px auto;
+/*            margin: 100px auto;*/
 /*            width: 80vw;*/
             width: 90%;
             max-width: 1200px;
@@ -1152,7 +1152,7 @@ DELETE
 
 
 
-    body.night .fx-imgpop{
+    body.night .imgpop-border{
         filter: drop-shadow(6px 6px 0px #333);
         border:1px solid #eee;
     }
