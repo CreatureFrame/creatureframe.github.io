@@ -686,6 +686,8 @@
         border: 1px solid black;
     }
 
+
+/*delete ?*/
     .backbutton {
         margin: 10px 0 10px 0;
         padding: 10px;
@@ -698,7 +700,14 @@
 
 
 
-
+    .footernav-single {
+        margin-top:-188px;
+        margin-bottom:-150px;
+        height:100px;
+        width:300px;
+        display:inline-block;
+        align-items: center;
+    }
 
 
 
@@ -1117,19 +1126,6 @@
         margin:5px -40px 10px -40px;
     }
 
-
-
-    .sidebyside-textbox-container{
-        align-content: stretch;
-        height:100%;
-        max-width:490px;
-        max-height:480px;
-        display: flex;
-/*      align-items: center;*/
-      justify-content: center;
-        border:2px solid blue;
-        display: inline-block;
-    }
 
 
     .sidebyside-textbox{
