@@ -1,0 +1,16 @@
+{
+"companyName": "www.CreatureFrame.com",
+"productName": "Slime Shader Demonstrate",
+"productVersion": "1.22",
+"dataUrl": "SlimeShader_demo.data.unityweb",
+"wasmCodeUrl": "SlimeShader_demo.wasm.code.unityweb",
+"wasmFrameworkUrl": "SlimeShader_demo.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"backgroundUrl": "SlimeShader_demo.jpg",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#FFFFFF",
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.4.31f1"
+}

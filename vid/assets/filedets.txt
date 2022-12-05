@@ -1,0 +1,7 @@
+bettaDark_formattest_mp4_h264_[4000k_500k_5500k].mp4
+
+
+bettaDark_formattest_webm_vp9___nonWeb_BTRT_4000k_2000k_8000k.webmbettaDark_formattest_webm_vp9___nonWeb_BTRT_2500k_2000k_5500k.webmbettaDark_formattest_webm_vp9___nonWeb_BTRT_1500k_1000k_3500k.webm
+
+
+bettaDark_formattest_gifPS_noDithFull.gif
